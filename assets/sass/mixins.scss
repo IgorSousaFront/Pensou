@@ -1,0 +1,42 @@
+/*
+// Mixins
+*/
+
+// Gradient
+@mixin gradient($first, $last, $percent-first, $percent-last) {
+	background: -moz-linear-gradient(top, $last $percent-first, $first $percent-last);
+		background: -webkit-gradient(left top, left bottom, color-stop($percent-first, $last), color-stop($percent-last, $first));
+			background: -webkit-linear-gradient(top, $last $percent-first, $first $percent-last);
+				background: -o-linear-gradient(top, $last $percent-first, $first $percent-last);
+					background: -ms-linear-gradient(top, $last $percent-first, $first $percent-last);
+						background: linear-gradient(to bottom, $last $percent-first, $first $percent-last);
+}
+
+//Border-radius
+@mixin border-radius($radius){
+	border-radius:$radius;
+	-webkit-border-radius:$radius;
+	-moz-border-radius:$radius;
+	-ms-border-radius:$radius;
+	-o-border-radius:$radius;
+}
+
+// filters
+
+@mixin filter($filter-type,$filter-amount) { 
+	-webkit-filter: $filter-type+unquote('(#{$filter-amount})');
+		-moz-filter: $filter-type+unquote('(#{$filter-amount})');
+			-ms-filter: $filter-type+unquote('(#{$filter-amount})');
+				-o-filter: $filter-type+unquote('(#{$filter-amount})');
+					filter: $filter-type+unquote('(#{$filter-amount})');
+}
+
+// Transform
+
+@mixin transform($val) {
+	-webkit-transform: $val;
+	-moz-transform: $val;
+	-ms-transform: $val;
+	transform: $val;
+}
+

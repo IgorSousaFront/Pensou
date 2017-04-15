@@ -1,0 +1,36 @@
+/*
+// Resets
+*/
+
+* {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	font-family: $font-primary-bold;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+hr {
+	border-top: 2px solid #d4d4d4;
+	margin: 10px 0;
+}
+
+p {
+	font-family: $font-secondary;
+	font-size: 15px;
+}
+
+a,
+a:hover {
+	text-decoration: none;
+}
+
+
+@font-face {font-family: 'panton-bold'; src: url('../fonts/Panton-BlackCaps.otf');}
+@font-face {font-family: 'panton-think'; src: url('../fonts/Panton-LightCaps.otf');}
+@import 'https://fonts.googleapis.com/css?family=Roboto';
