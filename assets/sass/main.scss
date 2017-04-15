@@ -4,7 +4,6 @@
 
 @import "bootstrap";
 @import "../../bower_components/font-awesome/scss/font-awesome";
-@import "ico-font";
 
 /*
 // Resets
@@ -12,40 +11,13 @@
 
 @import "variables";
 @import "reset";
-@import "components";
 @import "mixins";
-@import "forms";
 
 /*
 // Components
 */
 
-@import "header";
-@import "list-socials";
-@import "banner";
-@import "footer-index";
-@import "galery";
-@import "galery-internal";
-@import "treatments";
-@import "treatments-item";
-@import "team-item";
-@import "blog-item";
-@import "deposition-item";
-@import "map";
-@import "clinic";
-@import "medics";
-@import "medics-item";
-@import "sidebar";
-@import "posts-related";
-@import "team-sidebar";
-
 
 /*
 // Pages
 */
-
-@import "main-index";
-@import "blog";
-@import "internals";
-@import "treatments-internal";
-@import "contact";
