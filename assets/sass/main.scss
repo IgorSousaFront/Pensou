@@ -1,14 +1,12 @@
 /*
 // External estyles
 */
-
 @import "bootstrap";
 @import "../../bower_components/font-awesome/scss/font-awesome";
 
 /*
 // Resets
 */
-
 @import "variables";
 @import "reset";
 @import "mixins";
@@ -16,7 +14,8 @@
 /*
 // Components
 */
-
+@import "buttons";
+@import "header";
 
 /*
 // Pages

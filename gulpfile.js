@@ -1,13 +1,13 @@
-var gulp    = require('gulp'),
-sass        = require('gulp-sass'),
-csso        = require('gulp-csso'),
-concat      = require('gulp-concat'),
-uglify      = require('gulp-uglify'),
-fileinclude = require('gulp-file-include'),
-sync        = require('browser-sync');
+var gulp    	= require('gulp'),
+sass        	= require('gulp-sass'),
+csso        	= require('gulp-csso'),
+concat      	= require('gulp-concat'),
+uglify      	= require('gulp-uglify'),
+fileinclude 	= require('gulp-file-include'),
+sync        	= require('browser-sync');
 
 gulp.task('serverRun', function() {
-    browserSync.init({
+    sync.init({
         proxy: "localhost/Pensou/public/"
     });
 });
