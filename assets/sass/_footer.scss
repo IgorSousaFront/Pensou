@@ -1,0 +1,53 @@
+  #footer {
+    color: $color-light;
+
+    .footer-top {
+      padding: 25px;
+      background-color: $color-gray;
+      color: $color-light;
+
+      .title {
+        margin-top: 12px;
+        margin-bottom: 19px;
+        font-family: $font-secondary;
+        font-size: 40px;
+        font-weight: bold;
+        display: block;
+        color: $color-light;
+      }
+
+      .contato {
+        margin-bottom: 25px;
+        font-family: $font-secondary;
+        font-weight: bold;
+        font-size: 29px;
+        display: block;
+        color: $color-green;
+      }
+
+      .info {
+        color: $color-light;
+        line-height: 28px;
+        font-size: 14px;
+
+        .fa {
+          margin-right: 7px;
+          color: $color-light;
+        }
+
+      }
+
+      .list-icons {
+        text-align: right;
+        span {
+          background-color: lighten($color-gray,20%);
+          padding: 25px;
+          @include border-radius(50%);
+          .fa {
+            font-size: 25px;
+            color: $color-light;
+          }
+        }
+      }
+    }
+  }

@@ -11,7 +11,8 @@
 		<link rel="stylesheet" href="css/main.css">
 		<!-- js -->
 		<script type="text/javascript" src="js/main.js"></script>
-	</head>
+
+    </head>
 	<body>
 		<header id="header">
 			<div class="container">

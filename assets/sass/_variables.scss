@@ -5,11 +5,16 @@
 // Colors
 
 $color-primary    : #85C632;
+$color-green      : #baeb7d;
 $color-dark       : #313131;
 $color-light      : #FFFFFF;
+$color-gray       : #363636;
 
 // Fonts
 @import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 $font-primary     : 'Raleway', sans-serif;
+$font-secondary : 'Roboto', sans-serif;
+
 // $font-secondary   : ;

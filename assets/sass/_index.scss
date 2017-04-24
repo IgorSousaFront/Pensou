@@ -1,0 +1,43 @@
+
+section#contato{
+  margin-top: 125px;
+  .form-contatos{
+    .title{
+      font-family: $font-secondary;
+      font-size: 25px;
+      font-weight: bold;
+      margin-bottom: 25px;
+    }
+      .form-control{
+        border-radius: 0px;
+        border-color: transparent;
+        background-color: #f2f2f2;
+        border-bottom-style: solid;
+        border-bottom-color: #888888;
+        border-bottom-width: 2px;
+      }
+  }
+}
+
+
+#diagnostico{
+
+  background-color: #ececec;
+
+
+  .desc-diagnostico{
+    text-align: center;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    .title{
+      font-family: $font-secondary;
+      font-size: 25px;
+      font-weight: bold;
+    }
+  }
+  .btn-primary{
+
+  }
+
+
+}
