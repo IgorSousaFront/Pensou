@@ -109,3 +109,12 @@
 	-o-filter:$value;
 	filter:$value;
 }
+
+@mixin form-personalizado{
+	border-radius: 0px;
+	border-color: transparent;
+	background-color: #f2f2f2;
+	border-bottom-style: solid;
+	border-bottom-color: #888888;
+	border-bottom-width: 2px;
+}

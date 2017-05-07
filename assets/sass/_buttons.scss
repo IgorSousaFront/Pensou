@@ -9,7 +9,6 @@
 	font-family: $font-primary;
 	color: $color-light;
 	text-align: center;
-	font-size: 14px;
 	outline: none;
 	border: 3px solid;
 	text-transform: uppercase;
@@ -24,7 +23,6 @@
 }
 
 // Variations
-
 .btn-primary {
 	@extend %btn;
 
@@ -36,4 +34,11 @@
 		background-color: darken($color-primary, 10%);
 		border-color: darken($color-primary, 10%);
 	}
+}
+
+// Sizes
+.btn-big {
+	@extend .btn-primary;
+
+	padding: 4px 17px;
 }

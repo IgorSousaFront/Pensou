@@ -11,6 +11,26 @@
 	font-family: $font-primary;
 }
 
+.title-section {
+	font-size: 30px;
+	font-family: $font-primary;
+	text-transform: uppercase;
+	color: $color-dark;
+	text-align: center;
+	font-weight: 900;
+
+	&:after {
+        @include border-radius(4px);
+
+		content: "";
+		display: block;
+		height: 8px;
+		width: 50px;
+		margin: 10px auto;
+		background-color: $color-primary;
+	}
+}
+
 img {
 	width: 100%;
 	height: auto;

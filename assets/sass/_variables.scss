@@ -9,12 +9,13 @@ $color-green      : #baeb7d;
 $color-dark       : #313131;
 $color-light      : #FFFFFF;
 $color-gray       : #363636;
+$color-gray-secondary : #d7d6d6;
 
 // Fonts
-@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700,800,900');
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
-$font-primary     : 'Raleway', sans-serif;
+$font-primary   : 'Raleway', sans-serif;
 $font-secondary : 'Roboto', sans-serif;
 
 // $font-secondary   : ;
