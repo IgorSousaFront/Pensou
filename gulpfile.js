@@ -15,6 +15,7 @@ gulp.task('serverRun', function() {
 gulp.task('sass', function () {
 	return gulp.src([
 		'assets/sass/main.scss',
+		'bower_components/owl.carousel/dist/assets/owl.carousel.min.css'
 	])
 	.pipe(sass().on('error', sass.logError))
 	.pipe(csso())
@@ -33,6 +34,7 @@ gulp.task('js', function () {
 		'bower_components/formstone/dist/js/touch.js',
 		'bower_components/formstone/dist/js/transition.js',
 		'bower_components/formstone/dist/js/lightbox.js',
+		'bower_components/owl.carousel/dist/owl.carousel.min.js',
 		'assets/js/main.js'
 	])
 	.pipe(concat('main.js'))
@@ -61,7 +63,7 @@ gulp.task('default', ['sass', 'js', 'fileinclude', 'serverRun'], function() {
 gulp.task('watch', ['default'], function () {
   gulp.watch('assets/sass/*.scss', ['sass']);
   gulp.watch('assets/js/*.js', ['js']);
-  gulp.watch('*/*', ['serverRun']);
   gulp.watch('components/*.php', ['fileinclude']);
   gulp.watch('*.php', ['fileinclude']);
+  gulp.watch('*/*', ['serverRun']);
 });

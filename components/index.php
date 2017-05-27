@@ -1,3 +1,18 @@
+<section id="slide">
+    <div class="traparent-black">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <span>AGÊNCIA ESPECIALIZADA EM</span>
+                    <h2 class="text-destaque">MARKETING DIGITAL</h2>
+                    <span>SEO, Social Media, Sites inovadores, Design responsivo, Platafomas 100% gerenciaveis</span>
+                    <button class="btn-primary">SAIBA MAIS</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section id="service">
     <div class="container">
         <header class="row">
@@ -44,93 +59,164 @@
             </div>
         </div>
     </div>
-
-    <div class="row">
-        <div class="col-md-6 background-mkt">
-
-        </div>
-        <div class="col-md-6 background-dev">
-
-        </div>
-    </div>
-
-
 </section>
 
+<section class="services-two">
+    <div class="container">
+        <div class="row">
+            <div class="services-two-item col-xs-12 col-sm-6">
+                <h3>
+                    <span>Consultoria em</span>
+                    Marketing Digital
+                </h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam eveniet quas temporibus sit nobis ducimus, ipsam veniam labore alias quaerat placeat error, harum at tenetur voluptatem! Dolore a, ipsum modi.
+                </p>
+                <a href="#" class="btn-primary">saiba mais</a>
+                <a href="#" class="btn-primary out">orçamento</a>
+            </div>
+            <div class="services-two-item col-xs-12 col-sm-6">
+                <h3>
+                    <span>Desenvolvimento de</span>
+                    sites
+                </h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam eveniet quas temporibus sit nobis ducimus, ipsam veniam labore alias quaerat placeat error, harum at tenetur voluptatem! Dolore a, ipsum modi.
+                </p>
+                <a href="#" class="btn-dark">saiba mais</a>
+                <a href="#" class="btn-dark out">orçamento</a>
+            </div>
+        </div>
+    </div>
+</section>
 
 <section id="portifolio">
     <div class="container">
 
         <div class="row cabecalho-portifolio text-center">
-            <h3 class="title">NOSSO POSTIFOLIO</h3>
+            <h3 class="title-section">NOSSO POSTIFOLIO</h3>
             <p class="sub-title">Conheça nosso portfólio</p>
             <button class="btn active">Todos</button>
             <button class="btn">Sites</button>
             <button class="btn">Social Midia</button>
         </div>
 
-        <div class="row img-portifolio">
-            <div class="col-lg-4 col-sm-6"><img class="img-responsive img-thumbnail " src="img/1.png"></div>
-            <div class="col-lg-4 col-sm-6"><img class="img-responsive img-thumbnail" src="img/2.png"></div>
-            <div class="col-lg-4 col-sm-6"><img class="img-responsive img-thumbnail" src="img/3.png"></div>
-            <div class="col-lg-4 col-sm-6"><img class="img-responsive img-thumbnail" src="img/4.png"></div>
-            <div class="col-lg-4 col-sm-6 "><img class="img-responsive img-thumbnail" src="img/5.png"></div>
-            <div class="col-lg-4 col-sm-6"><img class="img-responsive img-thumbnail" src="img/6.png"></div>
+        <div class="row img-portifolio ">
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <img class="" src="img/1.png">
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <img class="" src="img/2.png">
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <img class="" src="img/3.png">
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <img class="" src="img/4.png">
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <img class="" src="img/5.png">
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <img class="" src="img/6.png">
+            </div>
         </div>
     </div>
 </section>
 
+<section id="blog">
+    <div class="container">
 
-<section id="modelos" style="height: 400px;background-color: #ececec;">
+        <h3 class="title-section">DESTAQUES DO NOSSO BLOG</h3>
+        <p class="sub-title">Veja cases de nosso clientes e confira conteúdos intressantes para o seu negócio.</p>
+        <div class="row list-blog">
+
+            <article class="col-md-4 article-blog">
+                <img src="http://www.mwway.com.br/wp-content/uploads/2016/08/seo.jpg" class="img-responsive">
+                <span class="date-blog">24 maio</span>
+                <h4 class="title-blog">Vantagens do Planejamento de Marketing Digital</h4>
+                <p class="text-blog">Marketing de conteúdo é uma maneira de engajar com seu público-alvo e crescer sua rede de clientes e potenciais clientes através da</p>
+
+                <a href="" class="continue">Continue Lendo</a>
+            </article>
+
+            <article class="col-md-4 article-blog">
+                <img src="http://www.mwway.com.br/wp-content/uploads/2016/08/seo.jpg" class="img-responsive">
+                <span class="date-blog">24 maio</span>
+                <h4 class="title-blog">Vantagens do Planejamento de Marketing Digital</h4>
+                <p class="text-blog">Marketing de conteúdo é uma maneira de engajar com seu público-alvo e crescer sua rede de clientes e potenciais clientes através da</p>
+
+                <a href="" class="continue">Continue Lendo</a>
+            </article>
+
+            <article class="col-md-4 article-blog">
+                <img src="http://www.mwway.com.br/wp-content/uploads/2016/08/seo.jpg" class="img-responsive">
+                <span class="date-blog">24 maio</span>
+                <h4 class="title-blog">Vantagens do Planejamento de Marketing Digital</h4>
+                <p class="text-blog">Marketing de conteúdo é uma maneira de engajar com seu público-alvo e crescer sua rede de clientes e potenciais clientes através da</p>
+
+                <a href="" class="continue">Continue Lendo</a>
+            </article>
+
+
+        </div>
+    </div>
 </section>
-
 
 <section id="contato" class="container">
     <div class="row">
 
-        <div class="col-md-6">
-            img
-        </div>
+        <div class="col-md-6 avaliacoes">
+            <div class="row">
+                <div class="balao col-md-12 text-center">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolo re magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <img src="img/clients-icon02.png" class="img-logo img-circle">
+                    </div>
+                </div>
 
-        <div class="col-md-6 col-xs-12">
-            <div class="row form-contatos">
-                <div class="col-md-12 text-center">
-                    <h3 class="title">ENTRE EM CONTATO</h3>
-                </div>
-                <div class="col-md-6 col-xs-6">
-                    <input class="form-control form-group input-lg" placeholder="Nome">
-                </div>
-                <div class="col-md-6 col-xs-6">
-                    <input class="form-control form-group input-lg" placeholder="Nome">
-                </div>
-                <div class="col-md-6 col-xs-6">
-                    <input class="form-control form-group input-lg" placeholder="Email">
-                </div>
-                <div class="col-md-6 col-xs-6">
-                    <input class="form-control form-group input-lg" placeholder="Telefone">
-                </div>
-                <div class="col-md-12 col-xs-12">
-                    <textarea class="form-control form-group input-lg" rows="4" placeholder="DIigite sua mensagem"></textarea>
-                </div>
             </div>
-        </div>
-    </div>
-</section>
 
-
-
-
-<section id="diagnostico">
-    <div class="container">
-        <div class="row desc-diagnostico">
-            <div class="col-md-6">
-                <h3 class="title">DIAGNÓSTICO GRÁTIS</h3>
-                <p>Avalie suas ações de marketing digital e saiba
-                    quais seus próximos passoas para o sucesso.</p>
-                </div>
-                <div class="col-md-6 btn-">
-                    <button class="btn-primary">SOLICITAR DIAGNÓSTICO GRATUITO</button>
+            <div class="col-md-6 col-xs-12">
+                <div class="row form-contatos">
+                    <div class="col-md-12 text-center">
+                        <h3 class="title">ENTRE EM CONTATO</h3>
+                    </div>
+                    <div class="col-md-6 col-xs-6">
+                        <input class="form-control form-group input-lg" placeholder="Nome">
+                    </div>
+                    <div class="col-md-6 col-xs-6">
+                        <input class="form-control form-group input-lg" placeholder="Nome">
+                    </div>
+                    <div class="col-md-6 col-xs-6">
+                        <input class="form-control form-group input-lg" placeholder="Email">
+                    </div>
+                    <div class="col-md-6 col-xs-6">
+                        <input class="form-control form-group input-lg" placeholder="Telefone">
+                    </div>
+                    <div class="col-md-12 col-xs-12">
+                        <textarea class="form-control form-group input-lg" rows="4" placeholder="DIigite sua mensagem"></textarea>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <section id="diagnostico">
+        <div class="container">
+            <div class="row desc-diagnostico">
+                <div class="col-md-6">
+                    <h3 class="title">DIAGNÓSTICO GRÁTIS</h3>
+                    <p>Avalie suas ações de marketing digital e saiba
+                        quais seus próximos passoas para o sucesso.</p>
+                    </div>
+                    <div class="col-md-6 btn-">
+                        <button class="btn-primary">SOLICITAR DIAGNÓSTICO GRATUITO</button>
+                    </div>
+                </div>
+            </div>
+        </section>

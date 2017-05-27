@@ -117,4 +117,8 @@
 	border-bottom-style: solid;
 	border-bottom-color: #888888;
 	border-bottom-width: 2px;
+
+	&:focus {
+		box-shadow: none;
+	}
 }

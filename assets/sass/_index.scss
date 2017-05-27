@@ -1,105 +1,316 @@
+section#slide{
+	background-image: url("../img/banner-home.png");
+	background-color: #ccc;
+	background-size: 100%;
+
+	.traparent-black {
+		padding-top: 50px;
+		padding-bottom: 50px;
+		background-color: rgba(0,0,0,0.8);
+
+		span {
+			font-size: 16px;
+			color: $color-light;
+			font-family: $font-primary;
+			font-weight: 600;
+
+		}
+
+		.text-destaque {
+			margin: 0 0 10px;
+			font-size: 40px;
+			color: $color-primary;
+			font-weight: 900;
+		}
+
+		button {
+			margin-top: 40px;
+			display: block;
+		}
+
+	}
+
+}
+
+
+
+
 section#service {
-    margin-top: 125px;
+	margin-top: 50px;
 
-    .list-service {
-        padding: 40px 0;
+	.list-service {
+		padding: 40px 0;
 
-        .service-item {
-            margin: 30px 0;            
+		.service-item {
+			margin: 30px 0;            
 
-            .bloco-img {
-                height: 85px;
-                width: 100%;
+			.bloco-img {
+				height: 85px;
+				width: 100%;
 
-                img {
-                    width: 100%;
-                    height: 100%;
-                    object-fit: contain;
-                }
-            }
+				img {
+					width: 100%;
+					height: 100%;
+					object-fit: contain;
+				}
+			}
 
-            h3 {
-                font-weight: 900;
-            }
+			h3 {
+				font-weight: 900;
+			}
 
-            p {
-                font-weight: 400;
-                font-size: 18px;
-            }
-        }
-    }
+			p {
+				font-weight: 400;
+				font-size: 18px;
+			}
+		}
+	}
+}
+
+section.services-two {
+
+	.services-two-item {
+		background-image: url(../img/services-01.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+		padding: 30px;
+
+		h3 {
+			color: $color-light;
+			font-family: $font-primary;
+			font-size: 40px;
+			text-transform: uppercase;
+			font-weight: 900;
+
+			span {
+				display: block;
+				color: $color-light;
+				font-size: 25px;
+			}
+		}
+
+		p {
+			color: $color-light;
+		}
+
+		a {
+			width: 100%;
+			margin: 0 0 20px;
+		}
+
+		&:nth-child(2) {
+			background-image: url(../img/services-02.png);
+		}
+	}
+
+	@media (min-width: $screen-sm-min) {
+		background-image: url(../img/services-01.png), url(../img/services-02.png);
+		background-repeat: no-repeat;
+		background-position: left, right;
+		background-size: 50% 100%;
+
+		.services-two-item,
+		.services-two-item:nth-child(2) {
+			background-image: none;
+
+			h3 {
+				font-size: 30px;
+
+				span {
+					font-size: 19px;
+				}
+			}
+
+			p {
+				height: 110px;
+				overflow: hidden;
+				margin: 0 0 20px;
+			}
+
+			a {
+				width: auto;
+				margin-right: 10px;
+			}
+		}
+	}
 }
 
 section#portifolio {
+	padding: 40px 0;
 
-    .cabecalho-portifolio {
+	.cabecalho-portifolio {
 
-        .title {
-            font-size: 30px;
-            font-weight: 900;
-            font-family: $font-primary;
-        }
+		.title {
+			font-size: 30px;
+			font-weight: 900;
+			font-family: $font-primary;
+		}
 
-        .sub-title {
-            color: $color-gray-secondary;
-            font-family: $font-primary;
-            font-size: 18px;
-        }
+		.sub-title {
+			color: $colot-gray-dark;
+			font-family: $font-primary;
+			font-size: 18px;
+		}
 
-        .btn {
-            @extend .btn-primary;
-            @include border-radius(15px);
+		.btn {
+			@extend .btn-primary;
+			@include border-radius(15px);
 
-            margin-bottom: 18px;
-            font-size: 14px;
-            padding: 3px 12px;
-            font-weight: bold;
+			margin-bottom: 18px;
+			font-size: 14px;
+			padding: 3px 12px;
+			font-weight: bold;
 
-            &:not(.active) {
-                background-color: transparent;
-                color: $color-dark;
-                border-color: transparent;
-            }
-        }
-    }
+			&:not(.active) {
+				background-color: transparent;
+				color: $color-dark;
+				border-color: transparent;
+			}
+		}
+	}
 
-    .img-portifolio {
+	.img-portifolio {
 
-        div {
-            min-height: 300px;
-        }
-    }
+		img {
+			@include transition(all linear .3s);
+			@include box-shadow(0 2px 8px rgba($color-dark, .35));
+
+			height: 200px;
+			width: 100%;
+			object-fit: cover;
+			object-position: top;
+			margin: 0 0 30px;
+
+			&:hover {
+				object-position: bottom;
+			}
+		}
+	}
 }
 
+section#blog {
+
+	background-color: #f9fff2;
+	padding:80px;;
+
+	.sub-title {
+		text-align:center;
+		color: $colot-gray-dark;
+		font-family: $font-primary;
+		font-size: 18px;
+	}
+
+	.list-blog {
+
+		.article-blog {
+
+			padding-top:40px;
+			padding-bottom:40px;
+			font-family:$font-primary;
+			border:6px solid transparent;
+			transition-duration: 1s;
+
+			&:hover {
+
+				border-color:lighten($color-primary,30%);
+
+			}
+
+			.date-blog {
+
+				font-size:24px;
+
+			}
+
+			.title-blog {
+
+				font-family:$font-primary;
+				font-size:28px;
+				font-weight:bold;
+
+			}
+
+			.text-blog {
+
+				font-size:22px;
+
+			}
+
+			.continue {
+
+				font-size:22px;
+				color:$color-primary;
+				font-weight:bold;
+
+			}
+
+
+
+		}
+	}
+}
+
+
+
 section#contato {
-    .form-contatos {
 
-        .title {
-            font-family: $font-secondary;
-            font-size: 25px;
-            font-weight: bold;
-            margin-bottom: 25px;
-        }
+	.avaliacoes {
 
-        .form-control {
-            @include form-personalizado();
-        }
-    }
+		padding: 27px;
+
+		.balao {
+			padding: 12px;
+			background-image: url(../img/services-01.png);
+			font-family: $font-secondary;
+
+			p {
+
+				color:$color-light;
+				font-size:16px;
+				height: 150px;
+				overflow: hidden;
+
+			}
+
+			.img-logo {
+				margin-top: 7px;
+				border-color: $color-primary;
+				border-style: solid;
+				border-width: 4px;
+				height:95px;
+				width: 95px;
+
+			}
+		}
+	}
+	.form-contatos {
+
+		.title {
+			font-family: $font-secondary;
+			font-size: 25px;
+			font-weight: bold;
+			margin-bottom: 25px;
+		}
+
+		.form-control {
+			@include form-personalizado();
+		}
+	}
 }
 
 
 section#diagnostico {
-    background-color: #ececec;
-   
-    .desc-diagnostico {
-        text-align: center;
-        padding-bottom: 25px;
-        padding-top: 25px;
+	background-color: #ececec;
 
-        .title {
-            font-family: $font-secondary;
-            font-size: 25px;
-            font-weight: bold;        
-        }
-    }
+	.desc-diagnostico {
+		text-align: center;
+		padding-bottom: 25px;
+		padding-top: 25px;
+
+		.title {
+			font-family: $font-secondary;
+			font-size: 25px;
+			font-weight: bold;        
+		}
+	}
 }

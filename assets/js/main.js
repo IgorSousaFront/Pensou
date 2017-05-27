@@ -1,3 +1,26 @@
+var Banner = {
+
+    carousel: function () {
+        $('.owl-carousel').owlCarousel({
+            loop:true,
+            margin:10,
+            nav:true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:3
+                },
+                1000:{
+                    items:5
+                }
+            }
+        });
+    }
+};
+
+
 var Screen = {
 	width: $(window).width()
 };
@@ -7,6 +30,8 @@ var App = {
 		$('a[href="#"]').click(function (e) {
 				e.preventDefault();
 	    });
+
+        Banner.carousel();
 	}
 };
 
