@@ -15,12 +15,12 @@
 
     </head>
 	<body>
-		<header id="header">
+		<header id="header" class="header">
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-9 col-sm-3">
 						<a class="header-brand" href="#">
-							<img src="img/logo-pensou.png" alt="">
+							<img src="img/logotipo.png" alt="">
 						</a>
 					</div>
 
@@ -52,9 +52,8 @@
     <div class="traparent-black">
         <div class="container">
             <div class="row">
-                <div class="col-md-7">
-                    <span>AGÊNCIA ESPECIALIZADA EM</span>
-                    <h2 class="text-destaque">MARKETING DIGITAL</h2>
+                <div class="col-md-12 text-center">
+                    <h2  class="text-destaque">Agência especializada em Marketing Digital</h2>
                     <span>SEO, Social Media, Sites inovadores, Design responsivo, Platafomas 100% gerenciaveis</span>
                     <button class="btn-primary">SAIBA MAIS</button>
                 </div>
@@ -151,23 +150,13 @@
             <button class="btn">Social Midia</button>
         </div>
 
-        <div class="row img-portifolio ">
-            <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="row img-portifolio">
+            <div class="col-xs-12 owl-carousel owl-theme">
                 <img class="" src="img/1.png">
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4">
                 <img class="" src="img/2.png">
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4">
                 <img class="" src="img/3.png">
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4">
                 <img class="" src="img/4.png">
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4">
                 <img class="" src="img/5.png">
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4">
                 <img class="" src="img/6.png">
             </div>
         </div>
@@ -181,41 +170,56 @@
         <p class="sub-title">Veja cases de nosso clientes e confira conteúdos intressantes para o seu negócio.</p>
         <div class="row list-blog">
 
-            <article class="col-md-4 article-blog">
-                <img src="http://www.mwway.com.br/wp-content/uploads/2016/08/seo.jpg" class="img-responsive">
-                <span class="date-blog">24 maio</span>
-                <h4 class="title-blog">Vantagens do Planejamento de Marketing Digital</h4>
-                <p class="text-blog">Marketing de conteúdo é uma maneira de engajar com seu público-alvo e crescer sua rede de clientes e potenciais clientes através da</p>
+            <article class="col-xs-12 col-md-4">
+                <div class="article-blog">
+                    <figure>
+                        <img src="http://www.mwway.com.br/wp-content/uploads/2016/08/seo.jpg" class="img-responsive">
+                        <time class="date-blog">24 <span>maio</span></time>
+                    </figure>
+                    <div class="legend">
+                        <h4 class="title-blog">Vantagens do Planejamento de Marketing Digital</h4>
+                        <p class="text-blog">Marketing de conteúdo é uma maneira de engajar com seu público-alvo e crescer sua rede de clientes e potenciais clientes através da</p>
 
-                <a href="" class="continue">Continue Lendo</a>
+                        <a href="" class="continue">Continue Lendo</a>
+                    </div>
+                </div>
             </article>
 
-            <article class="col-md-4 article-blog">
-                <img src="http://www.mwway.com.br/wp-content/uploads/2016/08/seo.jpg" class="img-responsive">
-                <span class="date-blog">24 maio</span>
-                <h4 class="title-blog">Vantagens do Planejamento de Marketing Digital</h4>
-                <p class="text-blog">Marketing de conteúdo é uma maneira de engajar com seu público-alvo e crescer sua rede de clientes e potenciais clientes através da</p>
+            <article class="col-xs-12 col-md-4">
+                <div class="article-blog">
+                    <figure>
+                        <img src="http://www.mwway.com.br/wp-content/uploads/2016/08/seo.jpg" class="img-responsive">
+                        <time class="date-blog">24 <span>maio</span></time>
+                    </figure>
+                    <div class="legend">
+                        <h4 class="title-blog">Vantagens do Planejamento de Marketing Digital</h4>
+                        <p class="text-blog">Marketing de conteúdo é uma maneira de engajar com seu público-alvo e crescer sua rede de clientes e potenciais clientes através da</p>
 
-                <a href="" class="continue">Continue Lendo</a>
+                        <a href="" class="continue">Continue Lendo</a>
+                    </div>
+                </div>
             </article>
 
-            <article class="col-md-4 article-blog">
-                <img src="http://www.mwway.com.br/wp-content/uploads/2016/08/seo.jpg" class="img-responsive">
-                <span class="date-blog">24 maio</span>
-                <h4 class="title-blog">Vantagens do Planejamento de Marketing Digital</h4>
-                <p class="text-blog">Marketing de conteúdo é uma maneira de engajar com seu público-alvo e crescer sua rede de clientes e potenciais clientes através da</p>
+            <article class="col-xs-12 col-md-4">
+                <div class="article-blog">
+                    <figure>
+                        <img src="http://www.mwway.com.br/wp-content/uploads/2016/08/seo.jpg" class="img-responsive">
+                        <time class="date-blog">24 <span>maio</span></time>
+                    </figure>
+                    <div class="legend">
+                        <h4 class="title-blog">Vantagens do Planejamento de Marketing Digital</h4>
+                        <p class="text-blog">Marketing de conteúdo é uma maneira de engajar com seu público-alvo e crescer sua rede de clientes e potenciais clientes através da</p>
 
-                <a href="" class="continue">Continue Lendo</a>
+                        <a href="" class="continue">Continue Lendo</a>
+                    </div>
+                </div>
             </article>
-
-
         </div>
     </div>
 </section>
 
 <section id="contato" class="container">
     <div class="row">
-
         <div class="col-md-6 avaliacoes">
             <div class="row">
                 <div class="balao col-md-12 text-center">
@@ -283,12 +287,12 @@
                 <div class="col-md-6">
                     <div class="row">
                         <div class="col-md-12 list-icons">
-                            <!--
-                            <span><i class="fa fa-facebook" aria-hidden="true"></i></span>
-                            <span><i class="fa fa-instagram" aria-hidden="true"></i></span>
-                            <span><i class="fa fa-google-plus" aria-hidden="true"></i></span>
-                            <span><i class="fa fa-pinterest-p" aria-hidden="true"></i></span>
-                            <span><i class="fa fa-behance" aria-hidden="true"></i></span>
+                            
+                            <span><i class="fa fa-fw fa-facebook" aria-hidden="true"></i></span>
+                            <span><i class="fa fa-fw fa-instagram" aria-hidden="true"></i></span>
+                            <span><i class="fa fa-fw fa-google-plus" aria-hidden="true"></i></span>
+                            <span><i class="fa fa-fw fa-pinterest-p" aria-hidden="true"></i></span>
+                            <span><i class="fa fa-fw fa-behance" aria-hidden="true"></i></span>
 
                         </div>
                     </div>

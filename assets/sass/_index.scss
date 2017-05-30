@@ -1,39 +1,36 @@
 section#slide{
-	background-image: url("../img/banner-home.png");
+	background-image: url("../img/fundo.png");
 	background-color: #ccc;
 	background-size: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
 
 	.traparent-black {
 		padding-top: 50px;
 		padding-bottom: 50px;
-		background-color: rgba(0,0,0,0.8);
+
 
 		span {
 			font-size: 16px;
 			color: $color-light;
 			font-family: $font-primary;
-			font-weight: 600;
+			
 
 		}
 
 		.text-destaque {
 			margin: 0 0 10px;
 			font-size: 40px;
-			color: $color-primary;
-			font-weight: 900;
+			color: $color-light;
+			font-weight: 700;
 		}
 
 		button {
 			margin-top: 40px;
 			display: block;
 		}
-
 	}
-
 }
-
-
-
 
 section#service {
 	margin-top: 50px;
@@ -102,37 +99,6 @@ section.services-two {
 			background-image: url(../img/services-02.png);
 		}
 	}
-
-	@media (min-width: $screen-sm-min) {
-		background-image: url(../img/services-01.png), url(../img/services-02.png);
-		background-repeat: no-repeat;
-		background-position: left, right;
-		background-size: 50% 100%;
-
-		.services-two-item,
-		.services-two-item:nth-child(2) {
-			background-image: none;
-
-			h3 {
-				font-size: 30px;
-
-				span {
-					font-size: 19px;
-				}
-			}
-
-			p {
-				height: 110px;
-				overflow: hidden;
-				margin: 0 0 20px;
-			}
-
-			a {
-				width: auto;
-				margin-right: 10px;
-			}
-		}
-	}
 }
 
 section#portifolio {
@@ -173,7 +139,7 @@ section#portifolio {
 
 		img {
 			@include transition(all linear .3s);
-			@include box-shadow(0 2px 8px rgba($color-dark, .35));
+			@include box-shadow(0 3px 8px 1px rgba($color-dark, .35));
 
 			height: 200px;
 			width: 100%;
@@ -191,7 +157,7 @@ section#portifolio {
 section#blog {
 
 	background-color: #f9fff2;
-	padding:80px;;
+	padding: 40px 0;
 
 	.sub-title {
 		text-align:center;
@@ -203,54 +169,75 @@ section#blog {
 	.list-blog {
 
 		.article-blog {
+			@include transition(all ease .1s);
+			@include border-radius(6px);
 
-			padding-top:40px;
-			padding-bottom:40px;
-			font-family:$font-primary;
-			border:6px solid transparent;
-			transition-duration: 1s;
+			font-family: $font-primary;
+			background-color: $color-light;
+
+			figure {
+				margin: 0;
+				position: relative;
+
+				.date-blog {
+					@include shadow(0 3px 5px rgba($color-dark, .2));
+					@include border-radius(2px);
+
+					position: absolute;
+					top: calc(100% - 29px);
+					right: 15px;
+					text-align: center;
+					display: block;
+					font-size:17px;
+					background-color: $color-light;
+					padding: 5px 10px;
+
+					span {
+						display: block;
+						width: 38px;
+						position: relative;
+						overflow: hidden;
+
+						&:after {
+							content: "...";
+							background-color: $color-light;
+							position: absolute;
+							top: 0;
+							right: 0;
+							height: 100%;
+						}
+					} 
+				}
+			}
+
+			.legend {
+				padding: 20px 20px 30px;
+
+				.title-blog {
+					font-family: $font-primary;
+					font-size: 28px;
+					font-weight: bold;
+
+				}
+
+				.text-blog {
+					font-size: 18px;
+				}
+
+				.continue {
+					font-size:22px;
+					color:$color-primary;
+					font-weight:bold;
+				}
+			}
 
 			&:hover {
-
-				border-color:lighten($color-primary,30%);
-
+				@include shadow(0 4px 8px rgba($color-dark, .2));
+				@include transform(translateY(-3px));
 			}
-
-			.date-blog {
-
-				font-size:24px;
-
-			}
-
-			.title-blog {
-
-				font-family:$font-primary;
-				font-size:28px;
-				font-weight:bold;
-
-			}
-
-			.text-blog {
-
-				font-size:22px;
-
-			}
-
-			.continue {
-
-				font-size:22px;
-				color:$color-primary;
-				font-weight:bold;
-
-			}
-
-
-
 		}
 	}
 }
-
-
 
 section#contato {
 
@@ -298,7 +285,6 @@ section#contato {
 	}
 }
 
-
 section#diagnostico {
 	background-color: #ececec;
 
@@ -311,6 +297,84 @@ section#diagnostico {
 			font-family: $font-secondary;
 			font-size: 25px;
 			font-weight: bold;        
+		}
+	}
+}
+
+@media (min-width: $screen-sm-min) {
+	section#slide{
+		height:100vh;
+		.traparent-black {
+			padding-top: 180px;
+			padding-bottom: 120px;
+
+			span {
+				font-size: 30px;
+			}
+
+			.text-destaque {
+				margin: 0 0 15px;
+				font-size: 50px;
+			}
+
+			button {
+				margin-top: 40px;
+				display: block;
+			}
+		}
+	}
+
+	section#portifolio {
+
+		.img-portifolio {
+
+			img {
+				height: 260px;
+			}
+		}
+	}
+
+	section.services-two {
+		background-image: url(../img/services-01.png), url(../img/services-02.png);
+		background-repeat: no-repeat;
+		background-position: left, right;
+		background-size: 50% 100%;
+
+		.services-two-item,
+		.services-two-item:nth-child(2) {
+			background-image: none;
+
+			h3 {
+				font-size: 30px;
+
+				span {
+					font-size: 19px;
+				}
+			}
+
+			p {
+				height: 110px;
+				overflow: hidden;
+				margin: 0 0 20px;
+			}
+
+			a {
+				width: auto;
+				margin-right: 10px;
+			}
+		}
+	}
+}
+
+@media (min-width: $screen-md-min) {
+
+	section#portifolio {
+
+		.img-portifolio {
+
+			img {
+				height: 350px;
+			}
 		}
 	}
 }

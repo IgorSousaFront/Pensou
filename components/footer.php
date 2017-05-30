@@ -11,12 +11,12 @@
                 <div class="col-md-6">
                     <div class="row">
                         <div class="col-md-12 list-icons">
-                            <!--
-                            <span><i class="fa fa-facebook" aria-hidden="true"></i></span>
-                            <span><i class="fa fa-instagram" aria-hidden="true"></i></span>
-                            <span><i class="fa fa-google-plus" aria-hidden="true"></i></span>
-                            <span><i class="fa fa-pinterest-p" aria-hidden="true"></i></span>
-                            <span><i class="fa fa-behance" aria-hidden="true"></i></span>
+                            
+                            <span><i class="fa fa-fw fa-facebook" aria-hidden="true"></i></span>
+                            <span><i class="fa fa-fw fa-instagram" aria-hidden="true"></i></span>
+                            <span><i class="fa fa-fw fa-google-plus" aria-hidden="true"></i></span>
+                            <span><i class="fa fa-fw fa-pinterest-p" aria-hidden="true"></i></span>
+                            <span><i class="fa fa-fw fa-behance" aria-hidden="true"></i></span>
 
                         </div>
                     </div>

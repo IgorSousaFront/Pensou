@@ -15,12 +15,12 @@
 
     </head>
 	<body>
-		<header id="header">
+		<header id="header" class="header">
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-9 col-sm-3">
 						<a class="header-brand" href="#">
-							<img src="img/logo-pensou.png" alt="">
+							<img src="img/logotipo.png" alt="">
 						</a>
 					</div>
 
