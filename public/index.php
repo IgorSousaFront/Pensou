@@ -17,6 +17,11 @@
 	<body>
 		<header id="header" class="header">
 			<div class="container">
+				<div class="row header-info">
+					<div class="col-md-4">
+						<span><i  class="fa fa-phone-square" aria-hidden="true"></i>+ 55 85 985003534</span>
+					</div>
+				</div>
 				<div class="row">
 					<div class="col-xs-9 col-sm-3">
 						<a class="header-brand" href="#">
@@ -50,12 +55,12 @@
 		</header>
 <section id="slide">
     <div class="traparent-black">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12 text-center">
                     <h2  class="text-destaque">Agência especializada em Marketing Digital</h2>
                     <span>SEO, Social Media, Sites inovadores, Design responsivo, Platafomas 100% gerenciaveis</span>
-                    <button class="btn-primary">SAIBA MAIS</button>
+                    <center><button class="btn-big-basic">SAIBA MAIS</button></center>
                 </div>
             </div>
         </div>

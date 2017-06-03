@@ -7,6 +7,23 @@
 	position: relative;
 	background-color: $color-grey-nav;
 
+	.header-info{
+		.fa{
+			
+			font-size:15px;	
+			margin-right:5px;
+			color:$color-light;
+		}
+
+		span {	
+			color:$color-light;
+			font-family:$font-secondary;
+			font-size:15px;	
+		
+		}
+
+	}
+
     .header-brand {
     	display: block;
     	height: 70px;
@@ -43,6 +60,7 @@
 					padding: 12px 0;
 					font-size: 15px;	
 					font-weight: bold;
+					color:$color-light;
 					text-transform: uppercase;
 				
 				}

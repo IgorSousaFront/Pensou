@@ -26,10 +26,11 @@
 }
 
 // Variations
+
 .btn-primary {
 	@extend %btn;
 
-	background-color: $color-primary;
+	background-color: transparent;
 	border-color: $color-primary;
 
 	&:hover,
@@ -46,6 +47,28 @@
 		}
 	}
 }
+
+.btn-basic {
+	@extend %btn;
+
+	background-color: transparent;
+	border-color: $color-light;
+
+	&:hover,
+	&:active {
+		background-color: darken($color-primary, 10%);
+		border-color: darken($color-primary, 10%);
+	}
+
+	&.out {
+		background-color: transparent;
+
+		&:hover {
+			background-color: $color-primary;
+		}
+	}
+}
+
 
 .btn-dark {
 	@extend %btn;
@@ -69,8 +92,17 @@
 }
 
 // Sizes
+
+
 .btn-big {
 	@extend .btn-primary;
 
 	padding: 4px 17px;
+}
+
+
+.btn-big-basic {
+	@extend .btn-primary;
+
+	padding: 14px 27px;
 }

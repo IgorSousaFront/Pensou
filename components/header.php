@@ -17,6 +17,11 @@
 	<body>
 		<header id="header" class="header">
 			<div class="container">
+				<div class="row header-info">
+					<div class="col-md-4">
+						<span><i  class="fa fa-phone-square" aria-hidden="true"></i>+ 55 85 985003534</span>
+					</div>
+				</div>
 				<div class="row">
 					<div class="col-xs-9 col-sm-3">
 						<a class="header-brand" href="#">

@@ -1,11 +1,11 @@
 <section id="slide">
     <div class="traparent-black">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12 text-center">
                     <h2  class="text-destaque">Agência especializada em Marketing Digital</h2>
                     <span>SEO, Social Media, Sites inovadores, Design responsivo, Platafomas 100% gerenciaveis</span>
-                    <button class="btn-primary">SAIBA MAIS</button>
+                    <center><button class="btn-big-basic">SAIBA MAIS</button></center>
                 </div>
             </div>
         </div>

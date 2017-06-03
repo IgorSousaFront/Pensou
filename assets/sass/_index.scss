@@ -26,8 +26,9 @@ section#slide{
 		}
 
 		button {
-			margin-top: 40px;
+			margin:0 auto;
 			display: block;
+
 		}
 	}
 }
@@ -366,6 +367,9 @@ section#diagnostico {
 	}
 }
 
+
+
+
 @media (min-width: $screen-md-min) {
 
 	section#portifolio {
@@ -377,4 +381,64 @@ section#diagnostico {
 			}
 		}
 	}
+
+
+	section#slide{
+
+
+		.traparent-black {
+			padding-top: 350px;
+			span {
+				font-size: 30px;
+			}
+
+			.text-destaque {
+				margin: 0 0 10px;
+				font-size: 60px;
+				color: $color-light;
+				font-weight: 700;
+			}
+
+			button {
+				margin-top:40px;;
+				display: block;
+				font-size:25px;
+			}
+		}
+	}
+
+
+
+
+
+	section#service {
+	
+		.list-service {
+
+			.service-item {
+				margin: 30px 0;            
+
+				.bloco-img {
+					height: 100px;
+					width: 100%;
+
+					img {
+						width: 100%;
+						height: 100%;
+						object-fit: contain;
+					}
+				}
+
+				p {
+					font-weight: 400;
+					font-size: 18px;
+				}
+			}
+		}
+	}
+
+
+
+
+
 }
